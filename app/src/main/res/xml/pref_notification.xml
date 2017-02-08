@@ -1,0 +1,12 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <CheckBoxPreference
+        android:key="@string/pref_enable_new_story_notification_key"
+        android:title="@string/pref_enable_new_story_notification_label"
+        android:summaryOff="@string/pref_enable_new_story_notifications_false"
+        android:summaryOn="@string/pref_enable_new_story_notifications_true"
+        android:defaultValue="@string/pref_enable_new_story_notifications_default" />
+
+</PreferenceScreen>

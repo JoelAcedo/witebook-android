@@ -1,0 +1,62 @@
+<resources>
+    <!--Menu actions-->
+    <string name="action_settings">Opciones</string>
+
+    <!--Library menu actions-->
+    <string name="action_upload_story">Subir relato</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_login">Entrar</string>
+
+    <!--Category strings-->
+    <string name="cat_fantasy">Fantasia</string>
+    <string name="cat_romantic">Romántico</string>
+    <string name="cat_history">Histórico</string>
+    <string name="cat_drama">Drama</string>
+    <string name="cat_fiction">Ficción</string>
+    <string name="cat_real">Real</string>
+    <string name="cat_horror">Horror</string>
+    <string name="cat_humor">Humor</string>
+    <string name="cat_suspense">Suspense</string>
+    <string name="cat_other">Otros</string>
+
+    <!-- Empty ListView-->
+    <string name="empty_list_library">Parece que no hay ningún relato</string>
+
+    <!--Error messages-->
+    <string name="http_connection_timeout">Imposible conectarse</string>
+
+    <!-- Notification String-->
+    <string name="new_story_notification_title">Nuevos relatos</string>
+    <string name="new_story_notification_message">nuevos relatos</string>
+
+    <!-- Share messenge-->
+    <string name="writebook_message">Disfruta leyendo</string>
+    <string name="writebook_by">por</string>
+
+    <!-- Languages available-->
+    <string name="language_english_key">Inglés</string>
+    <string name="language_spanish_key">Español</string>
+    <string name="language_catalan_key">Catalan</string>
+    <string name="language_any_key">Cualquiera</string>
+
+    <!-- Max stories -->
+    <string name="max_100_stories">100 relatos</string>
+    <string name="max_250_stories">250 relatos</string>
+    <string name="max_500_stories">500 relatos</string>
+    <string name="max_1000_stories">1000 relatos</string>
+
+
+    <!-- Dialog -->
+    <string name="dialog_upload_stories_info">Desafortunadamente esta función aun no esta integrada en
+        la aplicación, para subir tus relatos puedes hacerlo desde:</string>
+    <string name="dialog_upload_stories_page">writebook-writebookapi.rhcloud.com</string>
+    <string name="dialog_upload_stories_url">http://writebook-writebookapi.rhcloud.com/</string>
+    <string name="dialog_upload_stories_go">Ir a la web</string>
+    <string name="dialog_upload_stories_cancel">Cancelar</string>
+
+    <!-- Login/Register -->
+    <string name="text_login_register">Entrar o registrate</string>
+    <string name="text_join_community">Unete y disfruta de la mejor comunidad de relatos en tan solo unos segundos</string>
+
+</resources>

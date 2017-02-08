@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pref_text_size_key"
+        android:title="@string/pref_title_text_size"
+        android:defaultValue="@string/pref_text_size_default"
+        android:entries="@array/pref_text_size_titles"
+        android:entryValues="@array/pref_text_size_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+    <ListPreference
+        android:key="@string/pref_select_language_stories_key"
+        android:title="@string/pref_select_language_stories_label"
+        android:defaultValue="@string/pref_select_language_default"
+        android:entries="@array/pref_select_language_stories_options"
+        android:entryValues="@array/pref_select_language_stories_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+
+</PreferenceScreen>

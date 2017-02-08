@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.writebook.writebook.StoryDetailFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/empty_list_library"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:text="@string/empty_list_library"
+        android:textSize="16dp"
+        android:layout_margin="20dp"/>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_library" >
+
+        <ListView
+            style="@style/list_library_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview_library">
+        </ListView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

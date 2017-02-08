@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/action_login"
+        android:title="@string/action_login" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_upload"
+        android:title="@string/action_upload_story"
+        android:showAsAction="never"
+        />
+</menu>

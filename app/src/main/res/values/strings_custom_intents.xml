@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Custom Intents Sync -->
+    <string name="inmediatly_sync_finish" translatable="false">
+        com.writebook.writebook.custom.intent.action.INMEDIATLY_SYNC_FINISH
+    </string>
+
+    <string name="inmediatly_sync_fail" translatable="false">
+        com.writebook.writebook.custom.intent.action.INMEDIATLY_SYNC_FAIL
+    </string>
+
+</resources>

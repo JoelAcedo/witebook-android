@@ -1,0 +1,24 @@
+<resources>
+    <string name="title_activity_settings">Opciones</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- String General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_max_stories_saved_label">Numero máximo de historias guardadas</string>
+
+    <!-- String settings for Notifications -->
+    <string name="pref_header_notifications">Notificaciones</string>
+    <string name="pref_enable_new_story_notification_label">Nuevos relatos</string>
+
+    <string name="pref_enable_new_story_notifications_true">Habilitado</string>
+    <string name="pref_enable_new_story_notifications_false">Desabilitado</string>
+
+    <!-- String settings for Story Settings-->
+    <string name="pref_header_story">Relatos</string>
+
+    <string name="pref_title_text_size">Tamaño del texto</string>
+
+    <string name="pref_select_language_stories_label">Idioma</string>
+
+</resources>

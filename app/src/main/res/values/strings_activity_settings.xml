@@ -1,0 +1,73 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- String General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_max_stories_saved_label">Max number of saved stories</string>
+    <string name="pref_max_stories_saved_key" translatable="false">max_stories_saved</string>
+    <string-array name="pref_max_stories_saved_titles" >
+        <item>@string/max_100_stories</item>
+        <item>@string/max_250_stories</item>
+        <item>@string/max_500_stories</item>
+        <item>@string/max_1000_stories</item>
+    </string-array>
+    <string-array name="pref_max_stories_saved_values" translatable="false">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    <string name="pref_max_stories_saved_default" translatable="false">250</string>
+
+    <!-- String settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_enable_new_story_notification_label">New stories</string>
+    <string name="pref_enable_new_story_notification_key" translatable="false">notifications_new_story</string>
+
+    <string name="pref_enable_new_story_notifications_true">Enabled</string>
+    <string name="pref_enable_new_story_notifications_false">Not Enabled</string>
+    <string name="pref_enable_new_story_notifications_default" translatable="false">true</string>
+
+    <!-- String settings for Story Settings-->
+    <string name="pref_header_story">Stories</string>
+
+    <string name="pref_text_size_key" translatable="false">story_text_size_list</string>
+    <string name="pref_title_text_size">Text size</string>
+    <string-array name="pref_text_size_titles" translatable="false">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="pref_text_size_values" translatable="false">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="pref_text_size_default" translatable="false">16</string>
+
+    <string name="pref_select_language_stories_label">Language</string>
+    <string name="pref_select_language_stories_key" translatable="false">language</string>
+    <string-array name="pref_select_language_stories_options">
+        <item>@string/language_english_key</item>
+        <item>@string/language_spanish_key</item>
+        <item>@string/language_catalan_key</item>
+        <item>@string/language_any_key</item>
+    </string-array>
+
+    <string-array name="pref_select_language_stories_values" translatable="false">
+        <item>@string/language_english_values</item>
+        <item>@string/language_spanish_values</item>
+        <item>@string/language_catalan_values</item>
+        <item>any</item>
+    </string-array>
+    <string name="pref_select_language_default" translatable="false">any</string>
+
+</resources>
